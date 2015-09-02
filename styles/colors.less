@@ -1,8 +1,7 @@
 // These colors are specific to the theme. Do not use in a package!
 
-// NOTE background.less will (at some point) be written by the config
-@import "background.less";
-//
+@writer-bg: hsl(0, 0%, 100%);
+@writer-fg: hsl(0, 0%, 24%);
 
 @very-light-gray: mix(@writer-bg, @writer-fg, 90%);
 @light-gray:      mix(@writer-bg, @writer-fg, 70%);
@@ -11,10 +10,11 @@
 @very-dark-gray:  mix(@writer-bg, @writer-fg, 10%);
 
 // Base colors
-@red:    rgb(166, 77, 77);
+@red:    rgb(159, 67, 67);
 @orange: rgb(209, 134, 60);
 @green:  rgb(83, 150, 82);
-@blue:   rgb(78, 121, 166);
+@blue:   rgba(0, 112, 187, 1);
+
 @cyan:   rgb(88, 168, 163);
 @purple: rgb(133, 81, 138);
 

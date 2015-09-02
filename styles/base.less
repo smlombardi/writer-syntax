@@ -72,6 +72,7 @@ atom-text-editor::shadow .highlight.current-result ~ .highlight.selection .regio
 
 .comment {
   color: @gray;
+  font-style: italic;
 }
 
 .entity {
@@ -329,4 +330,12 @@ atom-text-editor::shadow .highlight.current-result ~ .highlight.selection .regio
 atom-text-editor[mini] .scroll-view,
 :host([mini]) .scroll-view {
   padding-left: 1px;
+}
+
+
+atom-text-editor::shadow .bracket-matcher .region {
+  border-bottom: 1px solid rgba(255, 184, 0, 0.9);
+  // border-radius: 3px;
+  background-color: rgba(255, 217, 0, 0.2);
+  z-index: 100;
 }

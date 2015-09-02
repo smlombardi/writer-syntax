@@ -1,12 +1,15 @@
 {
-  "name": "writer-syntax",
-  "main": "./lib/writer-syntax",
+  "name": "writer-plus-syntax",
   "theme": "syntax",
-  "version": "0.15.1",
-  "description": "A multi-purpose theme, for prose and coding. Comes in Light and Dark variants.",
+  "version": "0.0.0",
+  "description": "A light, gentle coding syntax based on Writer Light",
+  "keywords": [
+   "syntax",
+   "theme"
+ ],
   "license": "MIT",
-  "repository": "https://github.com/tpoisot/writer-syntax",
+  "repository": "https://github.com/smlombardi/writer-syntax",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.0.0 <2.0.0"
   }
 }

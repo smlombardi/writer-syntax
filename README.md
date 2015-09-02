@@ -11,16 +11,6 @@
 - Support for `python`
 - Support for `tasks`
 
-## Switch between Light and Dark
-
-Although there *is* an option to switch, it seems to be prone to breakage. The
-most efficient way is to edit your config file:
-
-``` cson
-"writer-syntax":
-  themeVariant: "Light" // or Dark
-```
-
 ## Screenshots
 
 **Markdown**
